@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Darouri bach i-khdem static
+  output: 'export', // Darouri bach i-khdem on-line
   images: {
-    unoptimized: true, // Bach l-tsawer i-banou
+    unoptimized: true,
   },
 }
 module.exports = nextConfig
