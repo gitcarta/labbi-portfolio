@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'export', // Darouri bach i-khdem static
+  images: {
+    unoptimized: true, // Bach l-tsawer i-banou
+  },
 }
-
 module.exports = nextConfig
